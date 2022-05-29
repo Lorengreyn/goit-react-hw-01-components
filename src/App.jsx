@@ -12,7 +12,7 @@ import transactions from './components/Transactions/transaction.json';
 
 
 
-export const App = () => {
+function App() {
   const { tag, username, location, avatar, stats } = user;
   return (
     <div
@@ -39,3 +39,4 @@ export const App = () => {
   );
 }
 
+export default App;
