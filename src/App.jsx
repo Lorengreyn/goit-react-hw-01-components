@@ -10,7 +10,7 @@ import friends from './components/Friends/friends.json';
 import TransactionHistory from './components/Transactions/TransactionHistory';
 import transactions from './components/Transactions/transaction.json';
 
-import BrowserRouter from 'react - router - dom';
+import BrowserRouter from 'react-dom';
 
 function App() {
   const { tag, username, location, avatar, stats } = user;
